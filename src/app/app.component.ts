@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { Task } from './interfaces/Task';
 import { TaskService } from './services/task.service';
+import {HttpClient,HttpHeaders} from '@angular/common/http'
 
 @Component({
   selector: 'app-root',
